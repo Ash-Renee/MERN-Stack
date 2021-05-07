@@ -5,7 +5,7 @@ class BirthdayButton extends Component {
         super(props); //class based componets 'props' is the prperty, can be whatever, it's a variable/object
         this.state = {
             clickAge: this.props.age,
-            // resetAge: this.props.age, was not used
+            resetAge: this.props.age,
         }
         console.log(props);
     }
@@ -17,9 +17,9 @@ class BirthdayButton extends Component {
     }
     
     ResetClick = () => {
-        this.setState({clickAge: this.props.age})
+        this.setState({clickAge: this.state.resetAge = age})
     }
-//state ccan be modified not props
+
     render() {
         const {firstName, lastName, hairColor} = this.props;
         return (
