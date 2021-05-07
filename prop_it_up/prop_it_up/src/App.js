@@ -1,16 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
-import PersonCard from './components/PersonCard';
+import BirthdayButton from './components/BirthdayButton';
 
 function App() {
   return (
     <div className="App">
-      <PersonCard firstName="Ashley" lastName="Renee" age="37" hairColor="pink"/>
-      <PersonCard firstName="Chazz" lastName="Cupcake" age="31" hairColor="chestnut"/>
-      <PersonCard firstName="Clara" lastName="Smith" age="37" hairColor="blonde"/>
-      <PersonCard firstName="Yuri" lastName="Pan" age="32" hairColor="blue"/>
-
+      <BirthdayButton firstName="Ashley" lastName="Renee" age={37} hairColor="pink"/>
+      <BirthdayButton/>
+      <BirthdayButton firstName="Chazz" lastName="Cupcake" age={31} hairColor="chestnut"/>
+      <BirthdayButton firstName="Clara" lastName="Smith" age={37} hairColor="blonde"/>
+      <BirthdayButton firstName="Yuri" lastName="Pan" age={32} hairColor="blue"/>
     </div>
   );
 }
