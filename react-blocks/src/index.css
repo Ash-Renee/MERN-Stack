@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.wrapper{
+  width: 975px; /* i adjusted the width slightly */
+  min-height: 700px;
+  background-color: silver;
+  border-style: solid;
+  margin: 0px auto;
+  margin-top: 10px;
+  padding-top: 5px; /* here cody did padding 20px */
+}
+.header{
+  min-height: 150px;
+  background-color: green;
+  border-style: solid;
+  margin: 15px; /* here cody did margin-bottom 20px */
+}
+.navigation{
+  min-height: 300px;
+  width: 150px; /* i changed this from 200 */
+  background-color: blue;
+  border-style: solid;
+  display: inline-block; /* i added this line */
+  vertical-align: top; /* from cody, this fixed the issue where the height of red kept moving the blue box */
+  margin-left: 20px; /* full list of cody additions
+  display inline block, vertial align top, margin right 20px */
+}
+.main_content{
+  min-height: 475px;
+  width: 760px; /* i adjusted the height and width */
+  background-color: red;
+  border-style: solid;
+  display: inline-block; /* i added this line */
+  margin-left: 15px; /* cody did 12px */
+}
+.subcontents{
+  min-height: 300px;
+  width: 200px; /* he had 210 */
+  display: inline-block;
+  border-style: solid; /* we both added this */
+  margin: 15px; /* cody did margin right and bottom 10px */
+  background-color:yellow;
+}
+.advertisement{
+  min-height: 120px;
+  width: 670px;
+  border-style: solid;
+  margin-top: 25px; /* only change cody made was margin top 10 px */
+  margin-left: 15px; /* i added this line */
+  background-color: purple;
+}
